@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience the Soul of Goa. Discover luxury travel, stunning beaches, rich heritage, and vibrant nightlife in India's top tourist destination.">
+    <title>Goa | Experience the Soul</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Spinner -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">GOA<span>.</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#attractions">Attractions</a>
+                <a href="#activities">Things To Do</a>
+                <a href="#guide">Travel Guide</a>
+                <a href="#gallery">Gallery</a>
+            </div>
+            <a href="#contact" class="btn-nav">Plan Trip</a>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal-fade">
+            <h1>Experience the Soul of Goa</h1>
+            <p>Where the sun kisses the sea, and every moment becomes a memory. Discover pristine beaches, rich heritage, and vibrant culture.</p>
+            <a href="#attractions" class="btn-primary">Explore Now</a>
+        </div>
+        <!-- Scroll Down Indicator -->
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+    <!-- About Goa Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Welcome to Paradise</h2>
+                <div class="divider"></div>
+                <p>A beautiful blend of Portuguese heritage and Indian culture, offering something extraordinary for every traveler.</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card reveal">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-umbrella-beach"></i>
+                    </div>
+                    <h3>Pristine Beaches</h3>
+                    <p>Over 100km of golden coastline bordered by the Arabian Sea, perfect for relaxation or thrilling water sports.</p>
+                </div>
+                <div class="about-card reveal" style="transition-delay: 0.1s;">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-church"></i>
+                    </div>
+                    <h3>Rich Heritage</h3>
+                    <p>Explore centuries-old Portuguese architecture, ancient forts, and UNESCO World Heritage churches.</p>
+                </div>
+                <div class="about-card reveal" style="transition-delay: 0.2s;">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <h3>Vibrant Nightlife</h3>
+                    <p>From lively beach shacks to world-class clubs, experience nights filled with music, dance, and celebration.</p>
+                </div>
+                <div class="about-card reveal" style="transition-delay: 0.3s;">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Exquisite Cuisine</h3>
+                    <p>Savor authentic Goan delicacies blending coastal flavors with historic culinary traditions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Attractions Section -->
+    <section id="attractions" class="section bg-light">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Top Attractions</h2>
+                <div class="divider"></div>
+                <p>Iconic locations you simply cannot miss during your stay.</p>
+            </div>
+            
+            <div class="attractions-grid">
+                <div class="attraction-card reveal">
+                    <img src="https://images.unsplash.com/photo-1596895111956-bf57bce52243?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Baga Beach" loading="lazy">
+                    <div class="card-content">
+                        <h3>Baga Beach</h3>
+                        <p>Famous for its bustling shorelines, thrilling water sports, and legendary beach shacks.</p>
+                    </div>
+                </div>
+                <div class="attraction-card reveal">
+                    <img src="https://images.unsplash.com/photo-1560179406-1c6c60e0faa2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dudhsagar Waterfalls" loading="lazy">
+                    <div class="card-content">
+                        <h3>Dudhsagar Waterfalls</h3>
+                        <p>A majestic four-tiered waterfall, appearing like a 'Sea of Milk' deep in the jungle.</p>
+                    </div>
+                </div>
+                <div class="attraction-card reveal">
+                    <img src="https://images.unsplash.com/photo-1622308644420-a0fe9c43d2cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Basilica of Bom Jesus" loading="lazy">
+                    <div class="card-content">
+                        <h3>Basilica of Bom Jesus</h3>
+                        <p>A UNESCO World Heritage site showcasing spectacular baroque architecture.</p>
+                    </div>
+                </div>
+                <div class="attraction-card reveal">
+                    <img src="https://images.unsplash.com/photo-1614082242765-7c98da0f3df8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fort Aguada" loading="lazy">
+                    <div class="card-content">
+                        <h3>Fort Aguada</h3>
+                        <p>A well-preserved 17th-century Portuguese fort offering panoramic views of the Arabian Sea.</p>
+                    </div>
+                </div>
+                <div class="attraction-card reveal">
+                    <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Calangute Beach" loading="lazy">
+                    <div class="card-content">
+                        <h3>Calangute Beach</h3>
+                        <p>The 'Queen of Beaches', known for its vibrant energy and vast sandy shores.</p>
+                    </div>
+                </div>
+                <div class="attraction-card reveal">
+                    <img src="https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Anjuna Flea Market" loading="lazy">
+                    <div class="card-content">
+                        <h3>Anjuna Flea Market</h3>
+                        <p>A vibrant weekly market offering handicrafts, jewelry, spices, and bohemian vibes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Things To Do Section -->
+    <section id="activities" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Experiences & Activities</h2>
+                <div class="divider"></div>
+                <p>Curated experiences to make your trip unforgettable.</p>
+            </div>
+            
+            <div class="activities-flex">
+                <div class="activity-item reveal">
+                    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Water Sports" loading="lazy">
+                    <div class="activity-overlay">
+                        <i class="fas fa-water"></i>
+                        <h3>Water Sports</h3>
+                        <p>Parasailing, jet skiing & scuba diving</p>
+                    </div>
+                </div>
+                <div class="activity-item reveal" style="transition-delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Nightlife" loading="lazy">
+                    <div class="activity-overlay">
+                        <i class="fas fa-music"></i>
+                        <h3>Nightlife</h3>
+                        <p>Beach clubs & trans-parties</p>
+                    </div>
+                </div>
+                <div class="activity-item reveal" style="transition-delay: 0.2s;">
+                    <img src="https://images.unsplash.com/photo-1599839619722-39751411ea63?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cruise Rides" loading="lazy">
+                    <div class="activity-overlay">
+                        <i class="fas fa-ship"></i>
+                        <h3>Cruise Rides</h3>
+                        <p>Sunset river cruises on Mandovi</p>
+                    </div>
+                </div>
+                <div class="activity-item reveal" style="transition-delay: 0.3s;">
+                    <img src="https://images.unsplash.com/photo-1603598587189-9e8cff3cc701?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Local Markets" loading="lazy">
+                    <div class="activity-overlay">
+                        <i class="fas fa-shopping-bag"></i>
+                        <h3>Local Markets</h3>
+                        <p>Spice plantations & flea markets</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Travel Guide (Accordion UI) -->
+    <section id="guide" class="section bg-light">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Essential Travel Guide</h2>
+                <div class="divider"></div>
+                <p>Everything you need to know before you pack your bags.</p>
+            </div>
+            
+            <div class="accordion reveal">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3><i class="far fa-calendar-alt"></i> Best Time to Visit</h3>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>The ideal time to visit Goa is between <strong>mid-November and mid-February</strong>. The weather is pleasantly cool and comfortable, perfect for relaxing on the beaches. If you prefer lush greenery and fewer crowds, the monsoon season (June to September) offers a magical, romantic atmosphere, though swimming is restricted.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3><i class="fas fa-wallet"></i> Budget & Expenses</h3>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Goa caters to all budgets. Backpackers can manage on ₹1500-2500/day staying in hostels and eating at local shacks. Mid-range travelers should budget ₹4000-7000/day. Luxury travelers can expect to spend ₹15,000+ per day. Cash is still widely used in smaller shacks, though UPI is commonly accepted almost everywhere now.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3><i class="fas fa-motorcycle"></i> Local Transport</h3>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>The best way to explore Goa is by renting a scooter or motorcycle (approx. ₹400-600/day depending on season). You must carry a valid driving license and wear a helmet. Cabs (local private taxis or GoaMiles app) are available but can be expensive. Auto-rickshaws and pilot (motorcycle) taxis are also common for shorter distances.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3><i class="fas fa-shield-alt"></i> Safety Tips</h3>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Goa is generally very safe for tourists. However, standard precautions apply: don't leave belongings unattended on the beach, avoid isolated areas late at night, and always swim in zones marked safe by lifeguards. Never drink and drive, as police checks are frequent and strict.</p>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3><i class="fas fa-check-circle"></i> Do's and Don'ts</h3>
+                        <div class="icon"><i class="fas fa-plus"></i></div>
+                    </div>
+                    <div class="accordion-content">
+                        <ul class="dos-donts">
+                            <li><strong>Do:</strong> Respect local culture, especially when visiting temples and churches (dress modestly).</li>
+                            <li><strong>Do:</strong> Try the local Feni (cashew spirit) and Goan fish curry.</li>
+                            <li><strong>Don't:</strong> Use plastic bags on the beaches; Goa is moving towards a plastic-free environment.</li>
+                            <li><strong>Don't:</strong> Take photographs of locals without permission.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quotes Section -->
+    <section class="quotes-section">
+        <div class="quote-overlay"></div>
+        <div class="container relative reveal">
+            <div class="quote-slider">
+                <div class="quote-slide active">
+                    <i class="fas fa-quote-left"></i>
+                    <blockquote>"Goa is not just a place, it’s a state of mind."</blockquote>
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <div class="quote-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <blockquote>"Let the sea set you free."</blockquote>
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <div class="quote-slide">
+                    <i class="fas fa-quote-left"></i>
+                    <blockquote>"Sun, sand, and the magic of Goa."</blockquote>
+                    <i class="fas fa-quote-right"></i>
+                </div>
+            </div>
+            <div class="quote-dots">
+                <span class="dot active" onclick="currentQuote(0)"></span>
+                <span class="dot" onclick="currentQuote(1)"></span>
+                <span class="dot" onclick="currentQuote(2)"></span>
+            </div>
+        </div>
+    </section>
+    <!-- Photo Gallery (Masonry) -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Through The Lens</h2>
+                <div class="divider"></div>
+                <p>Glimpses of beauty, culture, and life in Goa.</p>
+            </div>
+            
+            <div class="gallery-masonry reveal">
+                <div class="gallery-item item-large">
+                    <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Goa Beach sunset">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1587595431973-160d0d94add1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Portuguese Architecture">
+                </div>
+                <div class="gallery-item item-tall">
+                    <img src="https://images.unsplash.com/photo-1620021387606-2591b72e9f0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Palm Trees">
+                </div>
+                <div class="gallery-item item-wide">
+                    <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Goa Beach Resort">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1614082242765-7c98da0f3df8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Aguada Fort">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1560179406-1c6c60e0faa2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dudhsagar">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Traveler Stories</h2>
+                <div class="divider"></div>
+                <p>Hear from those who have experienced the magic.</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review">"Absolutely magical! The blend of Portuguese heritage with Indian culture is seamless. The beaches in South Goa were exactly the relaxing escape we needed."</p>
+                    <div class="user-info">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah J.">
+                        <div>
+                            <h4>Sarah Jenkins</h4>
+                            <span>UK Traveler</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal" style="transition-delay: 0.1s;">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="review">"The food is incredible! From the spicy vindaloo to fresh seafood by the beach shacks. Renting a scooter and exploring the winding roads was the highlight of our trip."</p>
+                    <div class="user-info">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="David M.">
+                        <div>
+                            <h4>David Martinez</h4>
+                            <span>Food Enthusiast</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal" style="transition-delay: 0.2s;">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="review">"The nightlife in Baga and Anjuna is unmatched. Met so many amazing people from around the world. Goa truly has an energy that makes you feel alive."</p>
+                    <div class="user-info">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Elena R.">
+                        <div>
+                            <h4>Elena Rostova</h4>
+                            <span>Digital Nomad</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-wrapper reveal">
+                <div class="contact-info">
+                    <h2>Plan Your Trip</h2>
+                    <p>Ready to experience Goa? Get in touch with our local experts to tailor the perfect itinerary for you.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Head Office</h4>
+                                <p>Panaji, Goa 403001, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>hello@exploregoa.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="booking-form">
+                        <div class="input-group">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required placeholder=" ">
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="input-group">
+                            <select id="interest" required>
+                                <option value="" disabled selected>Primary Interest</option>
+                                <option value="beaches">Beaches & Relaxation</option>
+                                <option value="heritage">Heritage & Culture</option>
+                                <option value="nightlife">Nightlife & Parties</option>
+                                <option value="adventure">Water Sports & Adventure</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" rows="4" required placeholder=" "></textarea>
+                            <label for="message">Your Message / Requirements</label>
+                        </div>
+                        <button type="submit" class="btn-primary w-100">Start Your Journey</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <a href="#" class="logo footer-logo">GOA<span>.</span></a>
+                    <p>Experience the perfect blend of sun, sand, and soul in India's most loved travel destination.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#attractions">Top Attractions</a></li>
+                        <li><a href="#guide">Travel Guide</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Experiences</h3>
+                    <ul>
+                        <li><a href="#activities">Water Sports</a></li>
+                        <li><a href="#activities">Heritage Tours</a></li>
+                        <li><a href="#activities">Nightlife</a></li>
+                        <li><a href="#activities">Culinary Trails</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for travel tips and exclusive offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Goa Tourism Showcase. Designed with <i class="fas fa-heart text-danger"></i> for luxury travel.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- CustomJS -->
+    <script src="script.js"></script>
+</body>
+</html>
